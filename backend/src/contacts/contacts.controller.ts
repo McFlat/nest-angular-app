@@ -1,5 +1,5 @@
 import { Controller, Get, Post,Put, Delete, Body, Param } from  '@nestjs/common';
-import { ContactService } from '../contact/contact.service';
+import { ContactService } from './contact.service';
 import { Contact } from  '../entities/contact.entity';
 
 @Controller('contacts')

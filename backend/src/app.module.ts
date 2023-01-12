@@ -5,7 +5,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
 import { Contact } from './entities/contact.entity';
-import { ContactService } from './contact/contact.service';
+import { ContactService } from './contacts/contact.service';
 import { ContactsController } from './contacts/contacts.controller';
 
 @Module({

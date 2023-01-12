@@ -35,3 +35,24 @@ ng serve
 
 ```
 
+```
+# list contacts
+curl --request GET \
+  --url http://localhost:3000/contacts
+
+# create contact
+curl --request POST \
+  --url http://localhost:3000/contacts/create \
+  --header 'Content-Type: application/json' \
+  --data '{"name": "test", "title": "test", "email": "test@example.com", "phone": "", "address": "", "city": ""}'
+
+# update contact
+curl --request PUT \
+  --url http://localhost:3000/contacts/1/update \
+  --header 'Content-Type: application/json' \
+  --data '{"name": "test", "title": "test", "email": "test@example.com", "phone": "", "address": "1234 main st", "city": "test"}'
+
+# delete contact
+curl --request DELETE \
+  --url http://localhost:3000/contacts/1/delete
+```
