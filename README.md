@@ -11,6 +11,8 @@ https://buddy.works/tutorials/build-a-full-stack-web-application-with-angular-7-
 
 The tutorial didn't work anymore, and the directory structure isn't very organized imho. I had to make a number of different updates to get it to work, and it didn't want to work again so easily. Maybe by the time you try to run this it won't work anymore, hahaha, that's just how it is.
 
+https://github.com/techiediaries/nest-angular-crud
+
 Judge how you want to be judged.
 
 ```sh
